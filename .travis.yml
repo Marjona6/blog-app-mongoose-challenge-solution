@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: Yt8xsBJ7qgPR4saI4HSlLWOW3lWYBOBu9YElkbwWFht4zX+9x7RBceNMNd5v0lN2qx9TB25MXLwTqh085AqZqzefVRxrguw96vIDx2ejAo6IbYY5Dy1vN7Ebyn4KsyO+I18JFnL3tudOGtib/rRnSqfZOrysMn+sbotpJVIxp0M/9EP4g+C4iN3WQubjjDHCo8ydHLnR4DL4cFQcPBuorQODs/+OHx0KDJjdHrzDi4M9nAPi+4WvVBXVvza3d06JXv5DOsPuUZdSYT5jtSInwZcfwkxB1rY6Rv3gSZZWbX7F/KTHqd/bU+oEXKVJEcKfbmKeQECUOmdIIW38hB2FBvMnZ3+Qi/nnvn0BRYeV1Eg8YC/OkUcfWw+6V075mwlAEdI+qgR1YeoCrMKNdGa8XnU1VAa7WXsfHyzY9NJBY1wv91PlSzZvG9FuFnYy+hvgJgrTF0oabAEMi9qAshAyE3K9+85l8ufbbngRuDK3SewgVYKE39+0b9Wlkxnupjf6p5CiGCZ7cP5yo/Rpxuf/8XcxFOIpxph0gHEKhNejI5swGQhZke02Sp4nV1h7DIPX99imBQzaPjuNMA7QZ+xce+clUV3o5RomBY/z7z50M/yCfQtXayD2nDAPYOOfMrb6cPSz1s13hHQFytdG+nF0GBjmEJgey8lB10OZSqfq0bs=
+  app: guarded-waters-18486
+  on:
+    repo: Marjona6/blog-app-mongoose-challenge-solution
